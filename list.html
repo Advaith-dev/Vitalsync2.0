@@ -59,8 +59,8 @@
 
                     <li class="sidebar-item active">
                         <a class="sidebar-link" href="list.html">
-                            <i class="align-middle" data-feather="alert-triangle"></i>
-                            <span class="align-middle">Alerts</span>
+                            <i class="align-middle" data-feather="users"></i>
+                            <span class="align-middle">Patients</span>
                         </a>
                     </li>
                 </ul>
@@ -76,77 +76,6 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav navbar-align">
-                        <li class="nav-item dropdown">
-                            <a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
-                                <div class="position-relative">
-                                    <i class="align-middle" data-feather="bell"></i>
-                                    <span class="indicator">3</span>
-                                </div>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
-                                aria-labelledby="alertsDropdown">
-                                <div class="dropdown-menu-header">4 New Notifications</div>
-                                <div class="list-group">
-                                    <a href="#" class="list-group-item">
-                                        <div class="row g-0 align-items-center">
-                                            <div class="col-2">
-                                                <i class="text-danger" data-feather="alert-circle"></i>
-                                            </div>
-                                            <div class="col-10">
-                                                <div class="text-dark">Update completed</div>
-                                                <div class="text-muted small mt-1">
-                                                    Restart server 12 to complete the update.
-                                                </div>
-                                                <div class="text-muted small mt-1">30m ago</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <div class="row g-0 align-items-center">
-                                            <div class="col-2">
-                                                <i class="text-warning" data-feather="bell"></i>
-                                            </div>
-                                            <div class="col-10">
-                                                <div class="text-dark">Lorem ipsum</div>
-                                                <div class="text-muted small mt-1">
-                                                    Aliquam ex eros, imperdiet vulputate hendrerit et.
-                                                </div>
-                                                <div class="text-muted small mt-1">2h ago</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <div class="row g-0 align-items-center">
-                                            <div class="col-2">
-                                                <i class="text-primary" data-feather="home"></i>
-                                            </div>
-                                            <div class="col-10">
-                                                <div class="text-dark">Login from 192.186.1.8</div>
-                                                <div class="text-muted small mt-1">5h ago</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <div class="row g-0 align-items-center">
-                                            <div class="col-2">
-                                                <i class="text-success" data-feather="user-plus"></i>
-                                            </div>
-                                            <div class="col-10">
-                                                <div class="text-dark">New connection</div>
-                                                <div class="text-muted small mt-1">
-                                                    Christina accepted your request.
-                                                </div>
-                                                <div class="text-muted small mt-1">14h ago</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="dropdown-menu-footer">
-                                    <a href="#" class="text-muted">Show all notifications</a>
-                                </div>
-                            </div>
-                        </li>
-
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#"
@@ -158,21 +87,7 @@
                                 data-bs-toggle="dropdown">
                                 <span class="text-dark">Nurse</span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1"
-                                        data-feather="user"></i>
-                                    Profile</a>
-                                <a class="dropdown-item" href="#"><i class="align-middle me-1"
-                                        data-feather="pie-chart"></i>
-                                    Analytics</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="index.html"><i class="align-middle me-1"
-                                        data-feather="settings"></i>
-                                    Settings & Privacy</a>
-                                <a class="dropdown-item" href="#"><i class="align-middle me-1"
-                                        data-feather="help-circle"></i>
-                                    Help Center</a>
-                                <div class="dropdown-divider"></div>
+                            <div class="dropdown-menu dropdown-menu-end">   
                                 <a class="dropdown-item" href="#">Log out</a>
                             </div>
                         </li>
@@ -181,57 +96,25 @@
             </nav>
             <main class="content">
                 <div class="container-fluid p-0">
-                    <h1 class="h3 mb-3"><strong>Alert</strong> Settings</h1>
+                    <h1 class="h3 mb-3"><strong>Patient</strong> List</h1>
                     <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="alert"
-                                            style="height: 18px; width: 36px;">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault"
-                                            style="font-size: large; padding-left: 5px;"><strong> Alerts
-                                            </strong></label>
-                                    </div>
-                                    <div class="form-check form-switch" style="padding-top: 8px;">
-                                        <input class="form-check-input" type="checkbox" id="sound_Alert"
-                                            style="height: 18px; width: 36px;">
-                                        <label class="form-check-label" for="flexSwitchCheckDefault"
-                                            style="font-size: large; padding-left: 5px;"><strong> Sound Alerts
-                                            </strong></label>
-                                    </div>
-                                    <div class="card" style="margin-top: 20px;">
-                                        <div class="card-body" style="padding-top: 10px;">
-                                            <div style="padding-top: 10px; font-style: normal; font-size: large;
-                                                font-weight:bolder;">
-                                                bpm
-                                            </div>
-                                            <div class="form-floating mb-3" style="width: 200px; margin-top: 10px;">
-                                                <input type="email" class="form-control" id="min_Bpm" placeholder="">
-                                                <label for="floatingInput">Min value</label>
-                                            </div>
-                                            <div class="form-floating mb-3" style="width: 200px;">
-                                                <input type="email" class="form-control" id="max_Bpm" placeholder="">
-                                                <label for="floatingInput">Max value</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div style="padding-top: 10px; font-style: normal; font-size: large;
-                                                font-weight:bolder; border-radius: 20px;">
-                                                spO2
-                                            </div>
-                                            <div class="form-floating mb-3" style="width: 200px; margin-top: 10px;">
-                                                <input type="email" class="form-control" id="min_O2" placeholder="">
-                                                <label for="floatingInput">Min value</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="btn btn-primary btn-lg" id="set_Alert"
-                                        style="margin-left: 6px; ">Set
-                                        Alert</button>
-                                </div>
+                        <div class="col-12 col-lg-8 col-xxl-9 d-flex">
+                            <div class="card flex-fill">
+
+                                <table class="table table-hover my-0" id="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th class="d-none d-md-table-cell">Patien ID</th>
+                                            <th class="d-none d-xl-table-cell">Age</th>
+                                            <th class="d-none d-xl-table-cell">Gender</th>
+                                            <th class="d-none d-xl-table-cell">Room no</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -267,7 +150,7 @@
         </div>
     </div>
     <script src="js/app.js"></script>
-    <script type="module" src="js/alert.js" defer></script>
+    <script type="module" src="js/list.js" defer></script>
 </body>
 
 </html>
